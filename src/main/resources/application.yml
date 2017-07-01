@@ -1,0 +1,23 @@
+
+spring:
+  datasource:
+    data-username: anta_test
+    data-password: Quan_anta_test_17420
+    url: jdbc:mysql://rm-wz91uj5u0b0q6u2rko.mysql.rds.aliyuncs.com/test_anta
+  mvc:
+    locale: zh_CN
+    dispatch-trace-request: true
+    date-format: yyyy-MM-dd
+
+
+
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  type-aliases-package: com.abo.model
+  configuration:
+    map-underscore-to-camel-case: true
+
+
+
+
