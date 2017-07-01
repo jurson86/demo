@@ -1,9 +1,9 @@
 
 spring:
   datasource:
-    data-username: anta_test
-    data-password: Quan_anta_test_17420
-    url: jdbc:mysql://rm-wz91uj5u0b0q6u2rko.mysql.rds.aliyuncs.com/test_anta
+    data-username: antatest
+    data-password: anta
+    url: jdbc:mysql://localhost:3306/test_anta
   mvc:
     locale: zh_CN
     dispatch-trace-request: true
